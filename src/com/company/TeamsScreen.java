@@ -3,7 +3,7 @@ package com.company;
 public class TeamsScreen {
 
     void show(){
-        System.out.println("MENU QUPOS");
+        System.out.println("MENU EQUIPOS");
 
         // if opcion == 1 HG
     }
