@@ -4,12 +4,12 @@ public class Main {
 
     public static void main(String[] args){
 
-        File file = new File("COMPETICION");
-
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file));
-        BufferedWriter bufferedReader = new BufferedReader(new FileReader(file));
-
-        String line = bufferedReader.readLine();
+        System.out.println("TORNEO: ");
+        System.out.println("1.Equipos");
+        System.out.println("2.Participantes");
+        System.out.println("3.Resultados");
+        System.out.println("4.Clasificacion");
+        System.out.println();
 
     }
 }
