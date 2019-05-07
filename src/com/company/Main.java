@@ -6,7 +6,10 @@ public class Main {
 
         File file = new File("myfile");
 
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter)
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file));
+        BufferedWriter bufferedReader = new BufferedReader(new FileReader(file));
+
+        String line = bufferedReader.readLine();
 
     }
 }
