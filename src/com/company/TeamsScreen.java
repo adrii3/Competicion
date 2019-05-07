@@ -5,7 +5,7 @@ public class TeamsScreen {
     void show(){
         System.out.println("MENU QUPOS");
 
-        // if opcion == 1
+        // if opcion == 1 HG
     }
 
 
