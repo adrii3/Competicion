@@ -7,5 +7,9 @@ public class Main {
         File file = new file("myfile");
 
 
+
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter)
+
+
     }
 }
