@@ -1,7 +1,6 @@
-package com.company.view;
+package com.company.ScreenOptions;
 
 
-import javax.xml.transform.Result;
 import java.util.Scanner;
 
 

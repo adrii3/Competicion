@@ -1,4 +1,7 @@
-package com.company.view;
+package com.company.Screens;
+
+import com.company.ScreenOptions.CreateTeamScreen;
+import com.company.ScreenOptions.ModifyTeamScreen;
 
 import java.util.Scanner;
 

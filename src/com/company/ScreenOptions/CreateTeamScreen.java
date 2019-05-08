@@ -1,4 +1,4 @@
-package com.company.view;
+package com.company.ScreenOptions;
 
 import com.company.manager.ManagerEquipos;
 import com.company.model.Team;

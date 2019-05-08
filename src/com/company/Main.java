@@ -1,9 +1,9 @@
 package com.company;
 
-import com.company.view.ClasificationScreen;
-import com.company.view.ParticipantScreen;
-import com.company.view.ResultScreen;
-import com.company.view.TeamsScreen;
+import com.company.Screens.ClasificationScreen;
+import com.company.Screens.ParticipantScreen;
+import com.company.Screens.ResultScreen;
+import com.company.Screens.TeamsScreen;
 
 import java.util.Scanner;
 
