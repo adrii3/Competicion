@@ -25,6 +25,12 @@ public class Main {
             case 2:
                 // particpantes....
                 break;
+            case 3:
+
+                break;
+            case 4:
+
+                break;
 
         }
     }
