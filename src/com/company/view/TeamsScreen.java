@@ -26,10 +26,12 @@ public class TeamsScreen {
                 ModifyTeamScreen.modificarEquipo();
                 break;
             case 3:
-
+                //crear clase borrar equipo
+                //llamar al metodo borrar equipo
                 break;
             case 4:
-
+                //crear clase mostrar equipos
+                //llamar metodos mostrar equipos
                 break;
 
         }

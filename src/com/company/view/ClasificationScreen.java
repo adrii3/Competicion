@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ClasificationScreen {
 
-    void show(){
+    public void show(){
         int opcion;
         Scanner sc = new Scanner(System.in);
 

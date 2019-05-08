@@ -9,7 +9,7 @@ public class ResultScreen {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("MENU EQUIPOS:");
+        System.out.println("MENU RESULTADOS:");
         System.out.println("1.Introducir Resultado");
 
 
