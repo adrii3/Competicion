@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TeamsScreen {
     int opcion;
 
-    void show(){
+    public void show(){
         Scanner sc = new Scanner(System.in);
 
         System.out.println("MENU EQUIPOS:");
