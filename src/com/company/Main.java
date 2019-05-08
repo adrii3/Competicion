@@ -20,7 +20,8 @@ public class Main {
 
         switch (opcion){
             case 1:
-                new TeamsScreen().show();
+                TeamsScreen TeamsScreen = new TeamsScreen();
+                TeamsScreen.show();
                 break;
             case 2:
                 // particpantes....
