@@ -39,7 +39,6 @@ public class Main {
                 ClasificationScreen ClasificationScreen = new ClasificationScreen();
                 ClasificationScreen.show();
                 break;
-
         }
     }
 }
