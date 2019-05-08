@@ -1,6 +1,6 @@
 package com.company.view;
 
 public class ParticipantScreen {
-    public void show() {
+    public void show() {assert
     }
 }
