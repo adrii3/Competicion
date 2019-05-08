@@ -1,4 +1,4 @@
-package com.company;
+package com.company.view;
 
 
 import javax.xml.transform.Result;
@@ -15,12 +15,6 @@ public class CreateResultScreen {
         System.out.println("Resultado: ");
 
         Result result = new Result();
-        result. = Scanner.nextLine();
-
-
-
-
-
-
+        result = Scanner.nextLine();
     }
 }
