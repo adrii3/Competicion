@@ -34,7 +34,8 @@ public class Main {
 
                 break;
             case 4:
-
+                ClasificationScreen ClasificationScreen = new ClasificationScreen();
+                ClasificationScreen.show();
                 break;
 
         }
