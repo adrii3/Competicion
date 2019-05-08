@@ -29,6 +29,8 @@ public class Main {
                 ParticipantScreen.show();
                 break;
             case 3:
+                ResultScreen ResultScreen = new ResultScreen();
+                ResultScreen.show();
 
                 break;
             case 4:
