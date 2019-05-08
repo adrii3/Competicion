@@ -24,7 +24,7 @@ public class Main {
                 TeamsScreen.show();
                 break;
             case 2:
-                // particpantes....
+                 // particpantes....
                 break;
             case 3:
 

@@ -6,7 +6,7 @@ import com.company.model.Team;
 import java.util.Scanner;
 
 public class CreateTeamScreen {
-    void show(){
+    public void show(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("INSCRIBIR EQUIPO");
