@@ -18,14 +18,18 @@ public class TeamsScreen {
 
         switch (opcion){
             case 1:
-                new CreateTeamScreen().show();
+                CreateTeamScreen CreateTeamScreen = new CreateTeamScreen();
+                CreateTeamScreen.pedirDatosEquipo();
                 break;
             case 2:
-                // particpantes....
+                ModifyTeamScreen ModifyTeamScreen = new ModifyTeamScreen();
+                ModifyTeamScreen.modificarEquipo();
                 break;
             case 3:
+
                 break;
             case 4:
+
                 break;
 
         }
