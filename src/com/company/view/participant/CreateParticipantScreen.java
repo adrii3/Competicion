@@ -1,13 +1,13 @@
-package com.company.ScreenOptions;
+package com.company.view.participant;
 
 import com.company.manager.ManagerEquipos;
 import com.company.model.Team;
 
 import java.util.Scanner;
 
-public class CreateTeamScreen {
+public class CreateParticipantScreen {
 
-    public void pedirDatosEquipo(){
+    public void show(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("INSCRIBIR EQUIPO");

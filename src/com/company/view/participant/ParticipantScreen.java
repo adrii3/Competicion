@@ -1,4 +1,4 @@
-package com.company.Screens;
+package com.company.view.participant;
 
 import java.util.Scanner;
 

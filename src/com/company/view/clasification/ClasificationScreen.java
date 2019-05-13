@@ -1,4 +1,4 @@
-package com.company.Screens;
+package com.company.view.clasification;
 
 import java.util.Scanner;
 

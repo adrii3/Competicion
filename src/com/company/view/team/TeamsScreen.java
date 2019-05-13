@@ -1,7 +1,4 @@
-package com.company.Screens;
-
-import com.company.ScreenOptions.CreateTeamScreen;
-import com.company.ScreenOptions.ModifyTeamScreen;
+package com.company.view.team;
 
 import java.util.Scanner;
 
@@ -21,20 +18,14 @@ public class TeamsScreen {
 
         switch (opcion){
             case 1:
-                CreateTeamScreen CreateTeamScreen = new CreateTeamScreen();
-                CreateTeamScreen.pedirDatosEquipo();
+                new CreateTeamScreen().show();
                 break;
             case 2:
-                ModifyTeamScreen ModifyTeamScreen = new ModifyTeamScreen();
-                ModifyTeamScreen.modificarEquipo();
+                new ModifyTeamScreen().show();
                 break;
             case 3:
-                //crear clase borrar equipo
-                //llamar al metodo borrar equipo
                 break;
             case 4:
-                //crear clase mostrar equipos
-                //llamar metodos mostrar equipos
                 break;
 
         }

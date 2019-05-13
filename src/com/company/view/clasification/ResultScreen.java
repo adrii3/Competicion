@@ -1,4 +1,4 @@
-package com.company.Screens;
+package com.company.view.clasification;
 
 import java.util.Scanner;
 
@@ -17,8 +17,7 @@ public class ResultScreen {
 
         switch (opcion){
             case 1:
-
-
+                new CreateResultScreen() .show();
                 break;
 
         }
