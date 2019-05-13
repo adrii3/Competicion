@@ -18,10 +18,10 @@ public class ClasificationScreen {
 
         switch (opcion){
             case 1:
-
+                new TeamClasificationScreen().show();
                 break;
             case 2:
-
+                new ParticipantClasificationScreen().show();
                 break;
         }
     }
