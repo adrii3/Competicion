@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
+        int a;
         System.out.println("TORNEO: ");
         System.out.println("1.Equipos");
         System.out.println("2.Participantes");
@@ -39,6 +40,7 @@ public class Main {
                 ClasificationScreen ClasificationScreen = new ClasificationScreen();
                 ClasificationScreen.show();
                 break;
+
         }
     }
 }
