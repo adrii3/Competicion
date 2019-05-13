@@ -14,8 +14,7 @@ public class CreateResultScreen {
 
         System.out.println("Resultado: ");
 
-        Result result = new Result();
-        result. = Scanner.nextLine();
+
 
 
 
