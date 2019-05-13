@@ -24,9 +24,11 @@ public class TeamsScreen {
                 new ModifyTeamScreen().show();
                 break;
             case 3:
+                new DeleteTeamScreen() .show();
 
                 break;
             case 4:
+
                 break;
 
         }
