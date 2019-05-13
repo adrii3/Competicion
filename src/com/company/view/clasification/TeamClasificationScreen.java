@@ -1,7 +1,4 @@
 package com.company.view.clasification;
 
-public class ResultsScreen {
-
-
-
+public class TeamClasificationScreen {
 }
