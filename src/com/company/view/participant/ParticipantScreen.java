@@ -23,7 +23,7 @@ public class ParticipantScreen {
 
                 break;
             case 2:
-                new ModifyTeamScreen().show();
+                new ModifyParticipantScreen().show();
 
                 break;
             case 3:
