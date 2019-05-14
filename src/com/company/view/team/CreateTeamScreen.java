@@ -9,13 +9,18 @@ public class CreateTeamScreen {
 
     public void show(){
         Scanner scanner = new Scanner(System.in);
+        Team team = new Team();
 
         System.out.println("INSCRIBIR EQUIPO");
 
+        System.out.println("ID: ");
+        team.id = scanner.nextInt();
+
         System.out.println("Nombre: ");
-        Team team = new Team();
         team.nombre = scanner.nextLine();
-//        team.ciudad =
+
+        System.out.println("Ciudad: ");
+        team.ciudad = scanner.nextLine();
 
         ManagerEquipos.createTeam(team);
     }
