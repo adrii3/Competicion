@@ -10,7 +10,7 @@ public class ModifyTeamScreen {
         Team team = new Team();
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("introduczca el id del equipo");
+        System.out.println("Introduzca el id del equipo");
         team.id = sc.nextInt();
         // buscar equipo en el fichero
 
