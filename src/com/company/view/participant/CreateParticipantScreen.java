@@ -10,7 +10,7 @@ public class CreateParticipantScreen {
     public void show(){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("INSCRIBIR EQUIPO");
+        System.out.println("Inscribir participante");
 
         System.out.println("Nombre: ");
         Team team = new Team();
