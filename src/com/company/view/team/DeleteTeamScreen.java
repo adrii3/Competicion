@@ -1,14 +1,16 @@
 package com.company.view.team;
 
-import java.sql.SQLOutput;
+import com.company.model.Team;
+
+import java.util.Scanner;
 
 public class DeleteTeamScreen {
 
+    Team team = new Team();
+    Scanner sc = new Scanner(System.in);
+
     public void show(){
         System.out.println("Introduzca el id del equipo que desea borrar");
-    }
-    public void show(){
-        System.out.println("Borra un equipo");
-
+        int id = sc.nextInt();
     }
 }
