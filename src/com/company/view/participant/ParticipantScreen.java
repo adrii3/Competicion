@@ -20,6 +20,7 @@ public class ParticipantScreen {
 
         switch (opcion){
             case 1:
+                new CreateParticipantScreen().show();
 
                 break;
             case 2:
