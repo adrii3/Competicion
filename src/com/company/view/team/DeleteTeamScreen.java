@@ -10,7 +10,7 @@ public class DeleteTeamScreen {
     Scanner sc = new Scanner(System.in);
 
     public void show(){
-        System.out.println("Introduzca el id del equipo que desea borrar");
-        int id = sc.nextInt();
+        System.out.println("Introduzca el id del equipo que desea borrar: ");
+
     }
 }
