@@ -1,7 +1,6 @@
 package com.company.view.participant;
 
 import com.company.view.team.ModifyTeamScreen;
-import com.company.view.team.ShowParticipantScreen;
 
 import java.util.Scanner;
 
