@@ -21,7 +21,7 @@ public class ClasificationScreen {
                 new TeamClasificationScreen().show();
                 break;
             case 2:
-                new ParticipantClasificationScreen().show();
+                new ParticipantClasificationScreen().show();aaaa
                 break;
         }
     }
