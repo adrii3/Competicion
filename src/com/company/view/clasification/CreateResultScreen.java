@@ -13,6 +13,8 @@ public class CreateResultScreen {
         System.out.println("INTRODUCE EL RESULTADO");
 
         System.out.println("Resultado: ");
+        // insertar resultado
+        // guardar resultado en el fichero
 
 
 

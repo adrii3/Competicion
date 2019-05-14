@@ -12,9 +12,9 @@ public class DeleteTeamScreen {
     public void show(){
         System.out.println("Introduzca el id del equipo que desea borrar: ");
         team.id = sc.nextInt();
-        // buscar id en el fichero
+        // buscar id del equipo en el fichero
 
-        //borrar equipo
+        //borrar equipo del fichero
         System.out.println("Equipo borrado");
     }
 }
