@@ -1,5 +1,7 @@
 package com.company.view.participant;
 
+import com.company.view.team.ShowParticipantScreen;
+
 import java.util.Scanner;
 
 public class ParticipantScreen {
@@ -26,6 +28,7 @@ public class ParticipantScreen {
             case 3:
                 break;
             case 4:
+                new ShowParticipantScreen().show();
                 break;
 
         }
