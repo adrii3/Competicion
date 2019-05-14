@@ -1,4 +1,4 @@
-package com.company.view.team;
+package com.company.view.participant;
 
 public class DeleteParticipantScreen {
 
