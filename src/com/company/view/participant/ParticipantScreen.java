@@ -1,5 +1,7 @@
 package com.company.view.participant;
 
+import com.company.view.team.DeleteParticipantScreen;
+import com.company.view.team.DeleteTeamScreen;
 import com.company.view.team.ModifyTeamScreen;
 
 import java.util.Scanner;
@@ -27,6 +29,7 @@ public class ParticipantScreen {
 
                 break;
             case 3:
+                new DeleteParticipantScreen().show();
                 break;
             case 4:
                 new ShowParticipantScreen().show();
