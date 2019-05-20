@@ -11,7 +11,7 @@ public class CreateTeamScreen {
         Scanner scanner = new Scanner(System.in);
         Team team = new Team();
 
-        System.out.println("INSCRIBIR EQUIPO");
+        System.out.println("Inscribir equipo");
 
         System.out.println("ID: ");
         team.id = scanner.nextInt();

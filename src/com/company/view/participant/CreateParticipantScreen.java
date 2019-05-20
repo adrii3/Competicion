@@ -14,7 +14,7 @@ public class CreateParticipantScreen {
 
         System.out.println("Inscribir participante: ");
 
-        System.out.println("Id: ");
+        System.out.println("ID: ");
         participant.id = scanner.nextInt();
 
         System.out.println("Nombre: ");
