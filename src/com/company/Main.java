@@ -13,38 +13,43 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
         int a;
-        System.out.println("TORNEO: ");
-        System.out.println("1.Equipos");
-        System.out.println("2.Participantes");
-        System.out.println("3.Resultados");
-        System.out.println("4.Clasificacion");
-        System.out.println("Elige una opcion:");
+        while(true) {
+            System.out.println("TORNEO: ");
+            System.out.println("1.Equipos");
+            System.out.println("2.Participantes");
+            System.out.println("3.Resultados");
+            System.out.println("4.Clasificacion");
+            System.out.println("5. Salir");
+            System.out.println("Elige una opcion:");
 
-        int opcion = sc.nextInt();
+            int opcion = sc.nextInt();
 
-        switch (opcion){
-            case 1:
-                TeamsScreen TeamsScreen = new TeamsScreen();
-                TeamsScreen.show();
-                break;
-            case 2:
-                ParticipantScreen ParticipantScreen = new ParticipantScreen();
-                ParticipantScreen.show();
-                break;
-            case 3:
-                ResultScreen ResultScreen = new ResultScreen();
-                ResultScreen.show();
+            switch (opcion) {
+                case 1:
+                    TeamsScreen TeamsScreen = new TeamsScreen();
+                    TeamsScreen.show();
+                    break;
+                case 2:
+                    ParticipantScreen ParticipantScreen = new ParticipantScreen();
+                    ParticipantScreen.show();
+                    break;
+                case 3:
+                    ResultScreen ResultScreen = new ResultScreen();
+                    ResultScreen.show();
 
-                break;
-            case 4:
-                ClasificationScreen ClasificationScreen = new ClasificationScreen();
-                ClasificationScreen.show();
-                break;
+                    break;
+                case 4:
+                    ClasificationScreen ClasificationScreen = new ClasificationScreen();
+                    ClasificationScreen.show();
+                    break;
+                case 5:
+                    return;
 
+            }
         }
     }
 

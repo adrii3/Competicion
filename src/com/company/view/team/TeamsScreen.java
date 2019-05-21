@@ -1,10 +1,11 @@
 package com.company.view.team;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TeamsScreen {
     int opcion;
-    public void show(){
+    public void show() throws IOException {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("MENU EQUIPOS:");
