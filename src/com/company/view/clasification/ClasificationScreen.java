@@ -11,6 +11,7 @@ public class ClasificationScreen {
         System.out.println("MENU CLASIFICACION:");
         System.out.println("1.Por equipos");
         System.out.println("2.Por participantes");
+        System.out.println("3. VOLVER");
 
         System.out.println("Elige opcion:");
 
@@ -23,6 +24,8 @@ public class ClasificationScreen {
             case 2:
                 new ParticipantClasificationScreen().show();
                 break;
+            case 3:
+                return;
         }
     }
 }
