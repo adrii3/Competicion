@@ -5,6 +5,10 @@ import com.company.view.participant.ParticipantScreen;
 import com.company.view.clasification.ResultScreen;
 import com.company.view.team.TeamsScreen;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -43,4 +47,23 @@ public class Main {
 
         }
     }
+
+    class TestData {
+        int id;
+        String value;
+        String value2;
+    }
+
+
+    static final String SEPARATOR = ":";
+    static final String FILENAME = "myfile";
+
+    static void create(TestData testData, File file) throws IOException {
+        BufferedWriter outputStream = new BufferedWriter(new FileWriter(file, true));
+
+        outputStream.write(testData.id + SEPARATOR + testData.value + SEPARATOR + testData.value2 + "\n");
+
+        outputStream.close();
+    }
+
 }

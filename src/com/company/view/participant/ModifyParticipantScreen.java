@@ -7,7 +7,7 @@ public class ModifyParticipantScreen {
 
     public void show() {
         System.out.println("Introduzca el id del participante que desea modificar");
-        int id = sc.nextInt();
+         int id = sc.nextInt();
 
         System.out.println("1. Introduzca nuevo nombre");
         String newname=sc.nextLine();
