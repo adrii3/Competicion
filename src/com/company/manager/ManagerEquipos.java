@@ -37,4 +37,27 @@ public class ManagerEquipos {
         tmpFile.renameTo(file);
 
     }
+
+    public static void modifyTeam(Team team) throws IOException {
+        File tmpFile = new File(file.getAbsolutePath() + "tmp");
+
+        BufferedReader inputStream = new BufferedReader(new FileReader(file));
+        BufferedWriter outputStream = new BufferedWriter(new FileWriter(tmpFile));
+
+        String line;
+        while((line = inputStream.readLine()) != null){
+            String[] values = line.split(SEPARATOR);
+
+            if(Integer.valueOf(values[0]) == team.id){
+                outputStream.write(team.id + SEPARATOR + team.nombre + SEPARATOR + team.ciudad + "\n");
+            } else {
+                outputStream.write(line + "\n");
+            }
+        }
+
+        outputStream.close();
+        inputStream.close();
+
+        tmpFile.renameTo(file);
+    }
 }
