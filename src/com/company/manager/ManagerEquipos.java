@@ -60,4 +60,25 @@ public class ManagerEquipos {
 
         tmpFile.renameTo(file);
     }
+
+    public static Team showTeam(int id) throws IOException {
+        BufferedReader inputStream = new BufferedReader(new FileReader(file));
+
+        Team team = null;
+        String line;
+        while((line = inputStream.readLine()) != null){
+            String[] values = line.split(SEPARATOR);
+
+            if(Integer.valueOf(values[0]) == id){
+                team = new Team();
+                team.id = Integer.valueOf(values[0]);
+                System.out.println(team.nombre = values[1]);
+                System.out.println(team.ciudad = values[2]);
+            }
+        }
+
+        inputStream.close();
+
+        return team;
+    }
 }
