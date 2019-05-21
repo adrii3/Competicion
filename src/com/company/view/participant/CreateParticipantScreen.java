@@ -1,14 +1,16 @@
 package com.company.view.participant;
 
 import com.company.manager.ManagerEquipos;
+import com.company.manager.ManagerParticipant;
 import com.company.model.Participant;
 import com.company.model.Team;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class CreateParticipantScreen {
 
-    public void show(){
+    public void show() throws IOException {
         Scanner scanner = new Scanner(System.in);
         Participant participant = new Participant();
 
@@ -26,7 +28,7 @@ public class CreateParticipantScreen {
         System.out.println("Equipo: ");
         participant.idteam = scanner.nextLine();
 
-        //insertar datos en el fichero
+        ManagerParticipant.createParticipant(participant);
 
     }
 }

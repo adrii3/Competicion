@@ -7,7 +7,7 @@ import java.io.*;
 public class ManagerEquipos {
 
     static final String SEPARATOR = ":";
-    static final String FILENAME = "myfile";
+    static final String FILENAME = "teamFile";
     static File file = new File(FILENAME);
 
     public static void createTeam(Team team) throws IOException {

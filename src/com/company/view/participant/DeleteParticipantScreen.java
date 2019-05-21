@@ -1,18 +1,22 @@
 package com.company.view.participant;
 
+import com.company.manager.ManagerParticipant;
+import com.company.model.Participant;
+
+import java.io.IOException;
 import java.util.Scanner;
 
 public class DeleteParticipantScreen {
 
-    public void show(){
+    public void show() throws IOException {
+        Participant participant = new Participant();
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Elige al participante que quieres eliminar");
+        System.out.println("Elige al participante que quieres eliminar (ID)");
 
-        int id = sc.nextInt();
-        System.out.println(" id : " + id);
+         participant.id = sc.nextInt();
 
-        //eliminar partcipante id, . y flan
+        ManagerParticipant.deleteParticipant(participant.id);
 
     }
 }
