@@ -2,11 +2,12 @@ package com.company.view.participant;
 
 import com.company.view.team.ModifyTeamScreen;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class ParticipantScreen {
     int opcion;
-    public void show() {
+    public void show() throws IOException {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("MENU PARTICIPANTES:");

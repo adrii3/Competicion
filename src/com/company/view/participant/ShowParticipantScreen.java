@@ -1,17 +1,20 @@
 package com.company.view.participant;
 
+import com.company.manager.ManagerParticipant;
+import com.company.model.Participant;
+
+import java.io.IOException;
 import java.util.Scanner;
 
 public class ShowParticipantScreen {
 
-    public void show(){
+    public void show() throws IOException {
         Scanner sc=new Scanner(System.in);
+        Participant participant = new Participant();
 
-        System.out.println("Que participantes quieres ver");
-        int id = sc.nextInt();
-        System.out.println(" id : " + id);
+        System.out.println("Que participante quieres ver");
+        participant.id = sc.nextInt();
 
-        //mostrar datos participante id
-
+        ManagerParticipant.showParticipant(participant.id);
     }
 }

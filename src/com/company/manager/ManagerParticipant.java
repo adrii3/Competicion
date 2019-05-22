@@ -1,7 +1,6 @@
 package com.company.manager;
 
 import com.company.model.Participant;
-import com.company.model.Team;
 
 import java.io.*;
 
@@ -38,7 +37,7 @@ public class ManagerParticipant {
 
     }
 
-    public static void modifyParticipant(Team team) throws IOException {
+    public static void modifyParticipant(Participant participant) throws IOException {
         File tmpFile = new File(file2.getAbsolutePath() + "tmp");
 
         BufferedReader inputStream = new BufferedReader(new FileReader(file2));
@@ -48,37 +47,37 @@ public class ManagerParticipant {
         while((line = inputStream.readLine()) != null){
             String[] values = line.split(SEPARATOR);
 
-            if(Integer.valueOf(values[0]) == team.id){
-                outputStream.write(team.id + SEPARATOR + team.nombre + SEPARATOR + team.ciudad + "\n");
+            if(Integer.valueOf(values[0]) == participant.id){
+                outputStream.write(participant.id + SEPARATOR + participant.nombre + SEPARATOR + participant.nacionalidad + SEPARATOR + participant.idteam + "\n");
             } else {
                 outputStream.write(line + "\n");
             }
         }
-
         outputStream.close();
         inputStream.close();
 
         tmpFile.renameTo(file2);
     }
 
-    public static Team showParticipant(int id) throws IOException {
+    public static Participant showParticipant(int id) throws IOException {
         BufferedReader inputStream = new BufferedReader(new FileReader(file2));
 
-        Team team = null;
+        Participant participant = null;
         String line;
         while((line = inputStream.readLine()) != null){
             String[] values = line.split(SEPARATOR);
 
             if(Integer.valueOf(values[0]) == id){
-                team = new Team();
-                team.id = Integer.valueOf(values[0]);
-                System.out.println(team.nombre = values[1]);
-                System.out.println(team.ciudad = values[2]);
+                participant = new Participant();
+                participant.id = Integer.valueOf(values[0]);
+                System.out.println(participant.nombre = values[1]);
+                System.out.println(participant.nacionalidad = values[2]);
+                System.out.println(participant.idteam = values[3]);
             }
         }
 
         inputStream.close();
 
-        return team;
+        return participant;
     }
 }
