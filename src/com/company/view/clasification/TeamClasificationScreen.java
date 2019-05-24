@@ -1,11 +1,21 @@
 package com.company.view.clasification;
 
-import java.util.Scanner;
+import com.company.manager.ManagerClasification;
+import com.company.manager.ManagerResultados;
+import com.company.model.Results;
+import com.company.model.Team;
+
+import java.io.IOException;
 
 public class TeamClasificationScreen {
 
-    void show(){
+    public void show() throws IOException {
+        ManagerClasification managerClasification = new ManagerClasification();
+        ManagerResultados managerResultados = new ManagerResultados();
+        Results results = new Results();
+        Team team = new Team();
 
-        //mostrar clasificacion por puntuacion de equipo
+        managerResultados.SumarPuntos(results, team);
+        //managerClasification.OrderByTeams();
     }
 }
