@@ -1,10 +1,11 @@
 package com.company.view.clasification;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class ClasificationScreen {
 
-    public void show(){
+    public void show() throws IOException {
         int opcion;
         Scanner sc = new Scanner(System.in);
 
